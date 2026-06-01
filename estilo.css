@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: white;
+    padding: 20px;
+}
+
+nav {
+    background-color: #1e1e1e;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #333;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.descripcion {
+    margin-bottom: 20px;
+    color: #cccccc;
+}
+
+.contenedor {
+    background-color: #1e1e1e;
+    border: 2px solid #333;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 15px;
+}
+
+.tarjeta {
+    width: 200px;
+    height: 150px;
+    background-color: #252525;
+    border: 2px solid #444;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.tarjeta:hover {
+    border-color: #666;
+}
+
+.seleccionada {
+    background-color: #1f3b22;
+    border-color: #4CAF50;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 10px 5px 10px 0;
+    background-color: #2d2d2d;
+    color: white;
+    border: 1px solid #555;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #444;
+}
+
+#texto-conteo,
+#contador-texto {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #4CAF50;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
